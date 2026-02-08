@@ -1,4 +1,4 @@
-# 🌐 Social Networks — ER / WS / BA (Generation & Analysis)
+# 🌐 Social Networks — ER / WS / BA    
 
 **Random network models in Python**: **Erdős–Rényi (ER)**, **Watts–Strogatz (WS)** and **Barabási–Albert (BA)**.  
 The project generates networks, computes core graph metrics, and produces **plots + CSV summaries** for comparison.
