@@ -80,6 +80,21 @@ The project produces:
 * P(k) plots (log–log),
 * comparison plots across models,
 * CSV tables with aggregated metrics (mean ± std).
+---
+
+## 🖼️ Quick preview
+
+### Example networks (N=100)  
+<table> <tr> <td align="center"><b>ER</b></td> <td align="center"><b>WS</b></td> <td align="center"><b>BA</b></td> </tr> <tr> <td><img src="plots/ER/ER_graph_N100.png" width="280"/></td> <td><img src="plots/WS/WS_graph_N100.png" width="280"/></td> <td><img src="plots/BA/BA_graph_N100.png" width="280"/></td> </tr> </table>
+
+### Degree histograms (N=1000)
+<table> <tr> <td align="center"><b>ER</b></td> <td align="center"><b>WS</b></td> <td align="center"><b>BA</b></td> </tr> <tr> <td><img src="plots/ER/ER_histogram_N1000.png" width="280"/></td> <td><img src="plots/WS/WS_histogram_N1000.png" width="280"/></td> <td><img src="plots/BA/BA_histogram_N1000.png" width="280"/></td> </tr> </table>
+
+### Degree distribution comparison P(k) (log–log)
+<table> <tr> <td align="center"><b>N=10</b></td> <td align="center"><b>N=50</b></td> <td align="center"><b>N=100</b></td> <td align="center"><b>N=200</b></td> </tr> <tr> <td><img src="plots/compare/Pk_compare_N10.png" width="230"/></td> <td><img src="plots/compare/Pk_compare_N50.png" width="230"/></td> <td><img src="plots/compare/Pk_compare_N100.png" width="230"/></td> <td><img src="plots/compare/Pk_compare_N200.png" width="230"/></td> </tr> </table>
+
+### Clustering / Radius / Diameter vs N
+<table> <tr> <td align="center"><b>Clustering vs N</b></td> <td align="center"><b>Radius vs N</b></td> <td align="center"><b>Diameter vs N</b></td> </tr> <tr> <td><img src="plots/compare/CC_vs_N.png" width="280"/></td> <td><img src="plots/compare/radius_vs_N.png" width="280"/></td> <td><img src="plots/compare/diameter_vs_N.png" width="280"/></td> </tr> </table>
 
 ---
 
